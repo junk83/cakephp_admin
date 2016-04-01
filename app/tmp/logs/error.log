@@ -1,0 +1,782 @@
+2016-03-26 18:11:09 Error: [MissingControllerException] Controller class LoginStyle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginStyle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:11:12 Error: [MissingControllerException] Controller class LoginStyle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginStyle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:11:19 Error: [MissingControllerException] Controller class LoginStyle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginStyle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:12:05 Error: [MissingControllerException] Controller class LoginStyle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginStyle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:12:08 Error: [MissingControllerException] Controller class LoginStyle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginStyle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:12:20 Error: [MissingControllerException] Controller class LoginStyle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginStyle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:12:26 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/user
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:12:26 Error: [MissingControllerException] Controller class LoginStyle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginStyle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:12:39 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/users
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-26 18:12:39 Error: [MissingControllerException] Controller class LoginStyle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginStyle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-26 18:12:49 Error: [MissingActionException] Action UsersController::login_style.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login_style.css',
+)
+Request URL: /cakephp_admin/users/login_style.css
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-27 20:56:05 Error: Fatal Error (1): Call to undefined method Security::hash() in [/vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/SimplePasswordHasher.php, line 41]
+2016-03-27 20:56:05 Error: [FatalErrorException] Call to undefined method Security::hash()
+Request URL: /cakephp_admin/users/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/vagrant/cakeph...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/vagrant/cakeph...', 41, Array)
+#2 /vagrant/cakephp_admin/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/vagrant/cakeph...', 41, Array)
+#3 /vagrant/cakephp_admin/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-27 21:00:19 Error: [CakeException] Password hasher class "None" was not found.
+Request URL: /cakephp_admin/users/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(138): BaseAuthenticate->passwordHasher()
+#1 /vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('12345', 'test')
+#2 /vagrant/cakephp_admin/lib/Cake/Controller/Component/AuthComponent.php(762): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 /vagrant/cakephp_admin/lib/Cake/Controller/Component/AuthComponent.php(607): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 /vagrant/cakephp_admin/app/Controller/UsersController.php(26): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 /vagrant/cakephp_admin/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-03-27 21:00:31 Error: [CakeException] Password hasher class "None" was not found.
+Request URL: /cakephp_admin/users/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(138): BaseAuthenticate->passwordHasher()
+#1 /vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('12345', 'test')
+#2 /vagrant/cakephp_admin/lib/Cake/Controller/Component/AuthComponent.php(762): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 /vagrant/cakephp_admin/lib/Cake/Controller/Component/AuthComponent.php(607): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 /vagrant/cakephp_admin/app/Controller/UsersController.php(26): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 /vagrant/cakephp_admin/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-03-27 21:05:54 Error: [CakeException] Password hasher class "None" was not found.
+Request URL: /cakephp_admin/users/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(138): BaseAuthenticate->passwordHasher()
+#1 /vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('12345', 'test')
+#2 /vagrant/cakephp_admin/lib/Cake/Controller/Component/AuthComponent.php(762): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 /vagrant/cakephp_admin/lib/Cake/Controller/Component/AuthComponent.php(607): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 /vagrant/cakephp_admin/app/Controller/UsersController.php(26): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 /vagrant/cakephp_admin/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-03-27 21:06:24 Error: [CakeException] Password hasher class "None" was not found.
+Request URL: /cakephp_admin/users/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(138): BaseAuthenticate->passwordHasher()
+#1 /vagrant/cakephp_admin/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('12345', 'test')
+#2 /vagrant/cakephp_admin/lib/Cake/Controller/Component/AuthComponent.php(762): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 /vagrant/cakephp_admin/lib/Cake/Controller/Component/AuthComponent.php(607): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 /vagrant/cakephp_admin/app/Controller/UsersController.php(26): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 /vagrant/cakephp_admin/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-03-27 21:07:28 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:08:17 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:09:12 Error: Fatal Error (4): syntax error, unexpected ':' in [/vagrant/cakephp_admin/app/View/Users/login.ctp, line 2]
+2016-03-27 21:09:12 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /cakephp_admin/users/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 2, Array)
+#2 /vagrant/cakephp_admin/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 2, Array)
+#3 /vagrant/cakephp_admin/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-27 21:09:44 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:10:18 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:11:13 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:11:21 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:13:24 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:13:41 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:13:44 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:13:53 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:17:16 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:17:50 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:18:18 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:18:37 Error: [MissingControllerException] Controller class Login.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Login.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login.html
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:18:42 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:18:53 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:19:51 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:24:52 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:25:51 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:25:55 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:26:01 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:26:10 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:26:56 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:27:06 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:28:07 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:28:10 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:28:12 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:28:19 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:28:48 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:29:05 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:29:08 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:29:14 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/login
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:29:15 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:29:22 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:32:08 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:32:59 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:33:08 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:33:39 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:33:57 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:34:07 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:34:15 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:35:37 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-27 21:36:26 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-28 22:13:07 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-28 22:13:16 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-28 22:29:56 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-28 22:30:24 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-28 22:42:38 Error: Fatal Error (4): syntax error, unexpected '}' in [/vagrant/cakephp_admin/app/Controller/HomesController.php, line 12]
+2016-03-28 22:42:38 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp_admin/homes/home
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 12, Array)
+#2 /vagrant/cakephp_admin/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 12, Array)
+#3 /vagrant/cakephp_admin/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-28 22:43:01 Error: Fatal Error (1): Call to a member function user() on a non-object in [/vagrant/cakephp_admin/app/Controller/HomesController.php, line 9]
+2016-03-28 22:43:01 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /cakephp_admin/homes/home
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/cakeph...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/cakeph...', 9, Array)
+#2 /vagrant/cakephp_admin/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/cakeph...', 9, Array)
+#3 /vagrant/cakephp_admin/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-28 22:53:39 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-28 22:55:17 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-28 22:56:10 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-28 22:56:13 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-28 23:05:27 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /cakephp_admin/users/logout
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/cakephp_admin/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-28 23:27:48 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-28 23:48:51 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-28 23:48:52 Error: [MissingActionException] Action HomesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/homes
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-29 22:54:44 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/home
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-29 22:55:03 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/home
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-29 22:55:07 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/home
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-29 23:01:50 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-29 23:01:50 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/
+Stack Trace:
+#0 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-29 23:06:19 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /cakephp_admin/home
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-01 21:59:24 Error: [MissingActionException] Action UsersController::login.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login.html',
+)
+Request URL: /cakephp_admin/login.html
+Stack Trace:
+#0 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/cakephp_admin/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/cakephp_admin/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
