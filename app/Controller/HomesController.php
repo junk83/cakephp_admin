@@ -1,23 +1,38 @@
 <?php
 class HomesController extends AppController
 {
+    public $uses = array('Contact');
+    public $helpers = array('Paginator');
+    public $components = array('Paginator');
 
     public function beforeFilter()
     {
-        $this->Auth->deny('home');
+        $this->Auth->deny('home', 'contacts');
+        $this->set('user', $this->Auth->user('name'));
     }
 
     public function home()
     {
-        //画面タイトル設定
-        $this->set('title_for_layout', '管理画面');
-        $user_data = $this->Auth->user();
-        if(is_null($user_data)){
-            $user_data['User']['name'] = '管理者名';
+
+    }
+
+    public function contacts()
+    {
+
+        $this->Paginator->settings = array(
+                'limit' => 20,
+                'order' => array('created' => 'desc'),
+        );
+        $this->set('datas', $this->paginate('Contact'));
+
+    }
+
+    public function detail()
+    {
+        if($this->request->params['id']) {
+            $id = $this->request->params['id'];
+            $this->set('datas', $this->Contact->findById($id));
         }
-
-        $this->set('user_data', $user_data);
-
     }
 
 }

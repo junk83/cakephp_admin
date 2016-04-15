@@ -29,6 +29,10 @@
 
     Router::connect('/home', array('controller' => 'homes', 'action' => 'home'));
 
+   Router::connect('/contacts', array('controller' => 'homes', 'action' => 'contacts'));
+
+   Router::connect('/contacts/detail/:id', array('controller' => 'homes', 'action' => 'detail'), array('id' => '[0-9]+'));
+
 	Router::connect('/:action', array('controller' => 'users'));
 
 

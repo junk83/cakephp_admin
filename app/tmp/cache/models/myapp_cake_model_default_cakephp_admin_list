@@ -1,2 +1,2 @@
-1459515560
-a:2:{i:0;s:17:"schema_migrations";i:1;s:5:"users";}
+1460718222
+a:4:{i:0;s:8:"contacts";i:1;s:17:"schema_migrations";i:2;s:5:"types";i:3;s:5:"users";}
